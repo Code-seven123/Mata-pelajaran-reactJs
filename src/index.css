@@ -1,0 +1,90 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    width: 100%;
+    height: 100vh;
+    padding: 2vh;
+    background-color: #FFF8D6;
+}
+.head{
+    display: flex;
+    height: 10%;
+    width: 100%;
+}
+.head button{
+    width: 20vw;
+    height: 100%;
+    flex: 1;
+    background-color: #98EECC;
+    font-size: 3em;
+    border: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.head button:active{
+    border: 1vh solid #E74646;
+    border-radius: 30%;
+}
+.head button:hover{
+    border: 0.4vh solid #17594A;
+}
+.head button img{
+  height: 80%;
+  width: 80%;
+}
+.head div{
+    flex: 3;
+    height: 100%;
+    width: 100%;
+    text-align: center;
+}
+.head div h1{
+    height: 65%;
+    background-color: #C70039;
+}
+.head div p{
+    height: 35%;
+    background-color: #F94C10;
+}
+
+
+
+.body{
+    display: flex;
+    height: 70%;
+    overflow-y: scroll;
+}
+.body .row:nth-child(1){
+    flex: 2;
+}
+.body .row:nth-child(1) ul li{
+    font-size: 0.8em;
+}
+.body .row:nth-child(2){
+    flex: 3;
+}
+.body .row:nth-child(2) ul li{
+    background-color: #FF6969 ;
+}
+.body .row{
+    padding: 2vh;
+}
+.body .row ul li{
+    height: 5vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #78C1F3;
+    border: 0.2vh solid #333C83;
+    margin-top: 4vh;
+}
+.body .row ul li:nth-child(even){
+    background-color: #00FFAB;
+}
+.body .row:nth-child(2) ul li:nth-child(even){
+    background-color: #FF6969 ;
+}

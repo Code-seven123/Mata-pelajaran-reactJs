@@ -1,0 +1,40 @@
+{
+  "senin": [
+    {
+      "mapel": "PJOK",
+      "ket": "07:40 - 09:00"
+    },
+    {
+      "mapel": "b.inggris",
+      "ket": "09:00 - 10:40"
+    },
+    {
+      "mapel": "Matematika",
+      "ket": "10:40 - 13:10"
+    },
+    {
+      "mapel": "PPKN",
+      "ket": "13:10 - 14:30"
+    }
+  ],
+  
+  "selasa": [
+    {
+      "mapel": "Mapel Pilihan RPL",
+      "ket": "07:00 - 12:00"
+    },
+    {
+      "mapel": "Konsentrasi Keahlian RPL",
+      "ket": "12:30 - 14:30"
+    }
+  ],
+  "rabu": [
+    
+  ],
+  "kamis": [
+    
+  ],
+  "jumat": [
+    
+  ]
+}
